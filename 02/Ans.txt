@@ -1,0 +1,17 @@
+1)
+SELECT id, name, age
+FROM Employees
+WHERE age BETWEEN 20 AND 30;
+
+// Avoid using * in SELECT statement
+
+2)
+SELECT age, COUNT(*) AS employee_count
+FROM Employees
+GROUP BY age
+ORDER BY age DESC;
+
+3)
+SELECT e.id AS employee_id, e.name, e.age, p.id AS project_id, p.project
+FROM Employees e
+LEFT JOIN Project p ON e.id = p.employee_id;

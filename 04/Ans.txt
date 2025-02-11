@@ -1,0 +1,57 @@
+1)
+I follow DDD for naming and coding standards, use TDD for testing and refactoring,
+review documentation, ensure consistency with existing patterns,
+reuse components, and get peer reviews for quality.
+
+2)
+I have worked with Laravel, CodeIgniter and CakePHP before and they follow MVC architecture.
+MVC (Model-View-Controller) is a design pattern that separates an application into three components:
+
+Model: Manages data and business logic.
+View: Displays UI and data.
+Controller: Handles requests and updates Model/View.
+It improves maintainability and scalability.
+Ofc, we can add more layers like Service, Repository, etc. for better separation of concerns.
+
+3)
+Yes, I have experience with Git and platforms like GitHub, GitLab, and Bitbucket for version control.
+Different branches (main, dev, feature, fix, bug), merging, and collaboration in team environments.
+
+4)
+For server-side development, I use PHP (Laravel, CodeIgniter), MySQL, Postman (API testing), Docker (containerization), and VS Code/ PhpStorm (Depending on the mood :D).
+For frontend, I use JavaScript, jQuery, Vue.js, TailwindCSS, and Bootstrap.
+
+5)
+I have worked with Linux, Ubuntu, AWS EC2.
+I have setup Apache, and Nginx for server environments, handling deployments, SSH access, and basic configurations.
+I have minimal experience with Docker and good experience with GitHub CI/CD pipelines.
+
+6)
+I have worked with MySQL, MariaDB, PostgreSQL (for Blueprint Capital),
+and NoSQL databases in freelance projects, handling queries, migrations, and database design.
+I have experience with Eloquent ORM in Laravel and Query Builder in CodeIgniter.
+I have also worked with Redis for caching, queuing and session management.
+
+7)
+On basis of pattern increase, decrease, increase, decrease and then next comes increase
+It will be 25 + 5 = 30
+
+8)
+It follows an alternating pattern as given:
+Multiply by 3
+Subtract 3
+
+So, 207 − 3 = 204
+
+9)
+It follows an alternating pattern as given:
+
+Divide by 4
+Multiply by 2
+
+So, 36 ÷ 4 = 9
+
+10)
+Following this pattern, the next number should be:
+
+4 × 3 = 12

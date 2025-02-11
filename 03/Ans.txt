@@ -1,0 +1,28 @@
+1)
+Before updating PHP, I check if the project supports the new version, look for deprecated functions,
+ensure required extensions exist, update dependencies, and test everything in a safe environment first.
+There's always upgrade guide available for each PHP version or framework.
+
+
+2)
+I configure required PHP extensions in the php.ini file by enabling or disabling extensions (removing ;),
+using extension=extension_name.so or extension=extension_name.dll.
+
+3)
+I use strict typing, enable error reporting, write unit and feature tests, follow coding standards,
+use static analysis tools like PHPStan (PHPStan at least level 6), and test thoroughly in a staging environment.
+Staging Environment is connected with "dev" branch most of the time and the main branch is connected with the "production" environment.
+
+4)
+I use PHPUnit for testing (Unit and Feature), PHPStan for static analysis, and CodeSniffer (PHPCS) for coding standards.
+I haven't used Pa11y yet, so I'm not familiar with it.
+
+5)
+I use set_time_limit(seconds). For example, set_time_limit(300) allows 5 minutes.
+We can call it at script's start or dynamically to reset the timer.
+I have used 0 to allow unlimited execution time especially for long-running scripts (E.g Cron Jobs).
+This overrides php.ini's max_execution_time
+
+6)
+Yes, I can debug PHP code by reviewing logic, using var_dump(), print_r(), error_log(),
+enabling display_errors, checking logs, using Xdebug, BugSnag  or (any framework specific tool for debugging) for deeper insights.
